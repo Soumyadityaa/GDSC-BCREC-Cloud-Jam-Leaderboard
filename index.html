@@ -94,7 +94,7 @@
         }
     }
                const updateData = async (filter)=>{
-                   let data =await(await fetch('./excel-to-json.json')).json();
+                   let data =await(await fetch('./data.json')).json();
                    let total_started = 0
                    if(filter !== ""){
                        data = data.filter((el)=>{
